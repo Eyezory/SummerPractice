@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+}
+
+.blocks{
+    background-color: #eeeff1;
+    gap: 140px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 7%;
+}
+
+.header-interactive{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 126px;
+    height: 50px;
+    align-self: center;
+}
+
+.btn1{
+    background-color: #1b1b1d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 63px;
+    padding: 15px 30px;
+    font-family: 'Jost', Regular;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.btn1:hover{
+    background-color: #f5bc49;
+    transition: 0.2s;
+}
+
+.btn2{
+    background-color: #ffffff;
+    box-shadow: 30px 30px 30px 30px #A3A8B226;
+    text-decoration: none;
+    border-radius: 56px;
+    padding: 16px 16px;
+    transition: 0.2s;
+}
+
+.btn2:hover{
+    background-color: #f5bc49;
+    transition: 0.2s;
+}
+
+.header-nav{
+    gap:40px;
+    display: flex;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #1b1b1d;
+    font-family: 'Jost', Regular;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.header-buttons{
+    gap:20px;
+    display: flex;
+
+}
+
+.sub-frame{
+    max-width: 630px;
+}
+
+.frame{
+    display: flex;
+    margin: 124px 5% ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.frame3{
+        margin: 124px 5% ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sub-frame-btns{
+    margin-top: 60px;
+    gap:30px;
+    display: flex;
+}
+
+.sub-frame-text{
+    font-family: 'Jost',Regular;
+    font-weight: 400;
+    font-size: 24px;
+    line-height:34px;
+    margin-bottom: 60px;
+}
+
+h1{
+    font-family: 'Jost', Regular;
+    font-weight: 800;
+    font-size: 124px;
+    line-height:140px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.class-again{
+    width:530px;
+}
+
+.btn3{
+    font-family: 'Jost',Regular;
+    text-decoration: underline;
+    color:#1b1b1d;
+    font-size: 18px;
+    font-weight: 500;
+    align-self: center;
+    transition: 0.2s;
+}
+
+.btn3:hover{
+    color: #f5bc49;
+    transition: 0.2s;
+}
+
+h2{
+    font-family: 'Jost', Regular;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    margin: 0;
+    margin-bottom: 24px;
+    
+}
+
+.header-group{
+    text-align: center;
+}
+
+.sub-frame-text2{
+    font-family: 'Jost',Regular;
+    font-weight: 400;
+    font-size: 24px;
+    line-height:34px;
+    margin-bottom: 60px;
+    align-content:center;
+    color: #64646a;
+    padding: 0 7%;
+}
+.frame2{
+    align-items: center;
+    margin: 140px 5%;
+
+}
+
+.cards{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    box-shadow: 0px 30px 60px 0px #A3A8B226;
+    border-radius: 24px;
+    min-width: 394px;
+    max-width: 394px;
+    min-height: 540px;
+    max-height: 540px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-label{
+    font-family: 'Jost', Regular;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+}
+
+.card-label2{
+    font-family: 'Jost', Regular;
+    font-weight: 800;
+    font-size: 64px;
+    margin: 0;
+}
+
+.card-label-sub{
+    font-family: 'Jost', Regular;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.card-image{
+    align-self: center;
+    width: 100%;
+}
+
+.container-my{
+    position: relative;
+    display: flex;
+    margin: 124px 5% ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 35%;
+
+}
+
+.img22{
+    width: auto;
+    height: auto;
+}
+
+.text-once-again{
+    font-size: 20px;
+    line-height:5px;
+    line-break: 0px;
+}
+
+.imtired{
+    gap: 10px;
+    height:60px;
+    width: 300px;
+}
+
+.card__description{
+    line-height: 30px;
+}
+
+.Abc{
+    width:1024px;
+}
+
+.Cbd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.flex-line{
+    display: flex;
+    flex-direction: row;
+
+}
+.column-flexer{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.jost{
+    font-family: 'Jost',Regular;
+}
+
+.weight-800{
+font-weight:800;
+}
+
+.size-40{
+    font-size:40px;
+}
+
+.width-60pr{
+    width: 60%;
+}
+
+.weight-400{
+    font-weight:400;
+    }
+    
+    .size-30{
+        font-size:30px;
+    }
+
+.flex-gap-30{
+    gap:30px;
+}
+
+.align-left{
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+    justify-items: left;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.input-placeholder-offset{
+    background-color: #ffffff;
+    width: 413px;
+    height: 70px;
+    gap: 0px;
+    border-radius: 65px;
+    border: none;
+    opacity: 0px;
+    box-shadow: 0px 12px 30px 0px #CDD1D647;
+    font-family: 'Jost',Regular;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+
+}
+
+.LINE{
+    border: 1px solid #1B1B1D;
+    width: 1239.43px;
+height: 0px;
+top: 4619.18px;
+left: 100px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0.1px;
+
+}
+
+.margin-bottom-80{
+    margin-bottom:80px ;
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gap-prec{
+    gap:50%
+}
+
+@media(max-width:500px){
+    .container-my{
+        width: 100%;
+    }
+}

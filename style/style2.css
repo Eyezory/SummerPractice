@@ -1,0 +1,85 @@
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding-inline: 40px;
+}
+
+.card__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  padding: 30px;
+  border: 1px solid #686868;
+  transition: background-color 0.5s;
+}
+
+.card__status {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-block: 0 20px;
+}
+
+.card__heading {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card__link {
+  color: #fff;
+  border-bottom: 1px solid #0bcf6b;
+  text-decoration: none;
+}
+
+.card__arrow {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 80px;
+  transition: 0.5s;
+}
+
+
+.card__arrow {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* ------- Стили карусели карточек -------  */
+.slider-wrapper {
+  position: relative;
+  padding-inline: 60px;
+}
+
+.button-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.button-arrow svg {
+  width: 100%;
+  height: auto;
+  stroke: #0bcf6b;
+}
+
+.button-arrow:hover svg {
+  stroke: #fff;
+}
+
+.button-arrow--prev {
+  left: 0;
+}
+
+.button-arrow--next {
+  right: 0;
+}
